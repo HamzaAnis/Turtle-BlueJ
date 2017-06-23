@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AntennaTurtle
+comment0.text=\r\n\ Another\ "fractalizing"\ decorator\ for\ turtles,\ this\ one\ creating\r\n\ a\ self-similar\ pattern\ of\ antennas.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=turtle\ cutoff
+comment1.target=AntennaTurtle(Turtle,\ double)
+comment1.text=\r\n\ Decorate\ the\ underlying\ turtle\ to\ create\ an\ antenna\ pattern.\r\n\ @param\ turtle\ The\ underlying\ turtle\ to\ decorate.\r\n\ @param\ cutoff\ The\ threshold\ for\ motion\ length\ to\ fractalize\ into\ an\ antenna.\r\n
+comment2.params=dist
+comment2.target=void\ move(double)
+comment2.text=\r\n\ The\ antenna\ motion\ is\ implemented\ by\ a\ couple\ of\ turns\ and\ moves,\ ending\r\n\ the\ turtle\ with\ the\ same\ position\ and\ heading\ as\ if\ the\ move\ had\ been\ done\r\n\ directly\ as\ given.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward\ to\ the\ current\ heading.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

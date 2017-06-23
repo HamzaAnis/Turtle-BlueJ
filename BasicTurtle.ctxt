@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BasicTurtle
+comment0.text=\r\n\ A\ very\ basic\ turtle\ that\ does\ nothing\ fancy,\ but\ simply\ moves\ exactly\ how\r\n\ it\ is\ told\ and\ draws\ a\ solid\ line.\r\n\ @author\ Ilkka\ Kokkarinen\r\n
+comment1.params=dist
+comment1.target=void\ move(double)
+comment1.text=\r\n\ The\ {@code\ BasicTurtle}\ moves\ exactly\ as\ it\ is\ told,\ calculating\ the\ new\r\n\ coordinates\ with\ trigonometry.\r\n\ @param\ dist\ The\ distance\ to\ move\ forward\ to\ the\ current\ heading.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
