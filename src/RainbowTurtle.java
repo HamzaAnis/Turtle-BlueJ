@@ -7,6 +7,7 @@ public class RainbowTurtle extends BasicTurtle {
     public static Random rng;
 
     public RainbowTurtle() {
+        super();
         rng = new Random();
     }
 

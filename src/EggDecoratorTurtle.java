@@ -1,4 +1,5 @@
 
+import java.awt.Graphics2D;
 import java.util.Random;
 
 /*
@@ -10,24 +11,24 @@ import java.util.Random;
  *
  * @author hamza
  */
-public class EggLayingTurtle extends BasicTurtle {
+public class EggDecoratorTurtle extends TurtleDecorator {
     
     private double prob;
     private double diameter;
     public static Random rng;
     
-    public EggLayingTurtle(double prob, double diameter) {
-        super();
+    public EggDecoratorTurtle(Turtle turtle, double prob, double diameter) {
+        super(turtle);
         this.prob = prob;
         this.diameter = diameter;
     }
     
     @Override
     public void move(double dist) {
-        super.move(dist);
-        if (rng.nextDouble() < prob) {
-            super.drawEgg(g2, dist, dist, diameter);
-        }
     }
     
+    @Override
+    public void drawEgg(Graphics2D g2, double x, double y, double diameter) {
+        super.drawEgg(g2s, x, y, diameter);
+    }
 }

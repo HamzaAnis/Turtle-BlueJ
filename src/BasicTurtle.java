@@ -32,9 +32,14 @@ public class BasicTurtle extends AbstractTurtle {
         }
         setPosition(x2, y2);
     }
-
+    
     @Override
     public String toString() {
         return "BasicTurtle";
+    }
+    
+    @Override
+    public void drawEgg(Graphics2D g2, double x, double y, double diameter) {
+        super.drawEgg(g2, x, y, diameter);
     }
 }

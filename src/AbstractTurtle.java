@@ -16,7 +16,7 @@ public abstract class AbstractTurtle implements Turtle, Cloneable {
     /**
      * The {@code Graphics2D} object that the turtle draws on.
      */
-    private Graphics2D g2;
+    Graphics2D g2;
     /**
      * The x-coordinate of the current position of the turtle.
      */
@@ -205,6 +205,11 @@ public abstract class AbstractTurtle implements Turtle, Cloneable {
     @Override
     public Turtle clone() throws CloneNotSupportedException {
         return (Turtle) super.clone();
+    }
+
+    @Override
+    public void drawEgg(Graphics2D g2, double x, double y, double diameter) {
+        g2.fill(new Ellipse2D.Double(x, y, diameter - diameter / 3, diameter));
     }
 
 }

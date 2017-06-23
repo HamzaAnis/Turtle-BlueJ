@@ -6,8 +6,8 @@ public class RainbowTurtleDecorator extends TurtleDecorator {
 
     public static Random rng;
 
-    public RainbowTurtleDecorator() {
-        rng = new Random();
+    public RainbowTurtleDecorator(Turtle turtle) {
+        super(turtle);
     }
 
     @Override
