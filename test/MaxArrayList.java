@@ -12,17 +12,16 @@ import java.util.ArrayList;
  */
 public class MaxArrayList extends ArrayList<Double> {
 
-    ArrayList<Double> data = new ArrayList<Double>();
     private double max;
 
     public double getMax() {
-        if (data.isEmpty()) {
+        if (super.isEmpty()) {
             return Double.NEGATIVE_INFINITY;
         } else {
             double max = Double.MIN_VALUE;
-            for (int i = 0; i < data.size(); i++) {
-                if (data.get(i) > max) {
-                    max = data.get(i);
+            for (int i = 0; i < super.size(); i++) {
+                if (super.get(i) > max) {
+                    max = super.get(i);
                 }
             }
             return max;
