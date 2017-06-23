@@ -3,15 +3,7 @@ import com.sun.org.apache.bcel.internal.Repository;
 import static java.lang.Math.E;
 import java.util.Iterator;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- *
- * @author hamza
- */
+
 public class CutoffIterator<E> implements Iterator<E> {
 
     private int limit;
