@@ -29,6 +29,6 @@ public class EggDecoratorTurtle extends TurtleDecorator {
     
     @Override
     public void drawEgg(Graphics2D g2, double x, double y, double diameter) {
-        super.drawEgg(g2s, x, y, diameter);
+        super.drawEgg(g2, x, y, diameter);
     }
 }
